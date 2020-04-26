@@ -9,6 +9,13 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+
+/* Table Body */
+
+.MuiTableContainer-root {
+    background: #F3F3F3;
+}
+
 .MuiToolbar-root, .MuiToolbar-regular, .makeStyles-root-2, .MuiToolbar-gutters {
     position: fixed;
 }
@@ -20,12 +27,18 @@ code {
     color: #fff;
 }
 
-.MuiSvgIcon-root {
+
+/* checkboxes */
+
+.MuiSvgIcon-root:first-child {
     color: #fff;
 }
 
+.MuiSvgIcon-root {
+    color: #283E4A;
+}
+
 .MuiTableCell-root.MuiTableCell-body {
-    background: pink;
     height: 0px;
 }
 
@@ -42,3 +55,8 @@ code {
     background: none;
     fill: none;
 }
+
+
+/*Typography*/
+
+th {}

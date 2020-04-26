@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*** End CSS Reset *********************************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#widget {
+    position: fixed;
+    right: 80px;
+    width: 230px;
+    background: #374D59;
+    box-shadow: 0px 0px 24px rgba(40, 62, 74, 0.5);
+    border-radius: 0px 0px 8px 8px;
+    padding: 28px;
+    text-align: center;
+}
+
+section div {
+    display: flex;
+}
+
+#occupation {
+    display: flex;
+    flex-direction: column;
+}
+
+#connections {
+    background: pink;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    padding: 8px 0;
+    height: 20px;
+    width: 226px;
+}
+
+textarea {
+    width: 214px;
+    min-height: 120px;
+    background: #E1E9EE;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    resize: none;
+}
+
+#redirect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#fullName, #occupation, #connections, #notes {
+    margin-bottom: 20px;
+}
+
+
+/*** Typography *********************************/
+
+#fullName {
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#fullName p:first-child {
+    padding-right: 8px;
+}
+
+#occupation p {
+    padding-left: 8px;
+    padding-bottom: 8px;
+    color: #CACCCE;
+}
+
+#redirect a {
+    margin-top: 20px;
+    color: #CACCCE;
+}
+
+
+/*** Images, Logos, and Buttons *********************************/
+
+#linkedUpLogo {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.icon {
+    /** Placeholder **/
+    width: 10px;
+    height: 10px;
+    background: pink;
+    padding-right: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background: #0077B5;
+    border: none;
+}
+
+#redirect button a, button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#newMessage {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 28px;
+    right: 28px;
+}
+
+#composeMessage {
+    width: fit-content;
+}

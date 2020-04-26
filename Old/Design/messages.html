@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedUp</title>
+    <!-- [if lt IE 9]>
+    <script src="dist/html5shiv.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="stylesMessages.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="widget">
+        <button id="composeMessage">
+            <a href="#">Compose</a> 
+            <!-- <a href="#">Back</a>  <- this line of code displays if toggled to MessageScreen2 --> 
+        </button>
+
+        <div id="messageScreen1" style="display:none;">
+            <!-- <div id="messageScreen1" style="display:none;"> -->
+            <!-- Hidden When "Compose" is clicked-->
+            <section class="messageTitle">
+                <p>Scenarios</p>
+            </section>
+            <section id="scenarioList">
+                <ul>
+                    <li><a href="#">Mutual Connection Intro</a></li>
+                    <li><a href="#">Cold Reach Out</a></li>
+                    <li><a href="#">Recommendation Letter</a></li>
+                    <li><a href="#">Information Interview</a></li>
+                    <li><a href="#">Mentorship</a></li>
+                    <li><a href="#">Referral Request</a></li>
+                    <li><a href="#">Interview Follow Up</a></li>
+                    <li><a href="#">Event Follow Up</a></li>
+                    <li><a href="#">Application Submission Follow Up</a></li>
+                    <li><a href="#">Informational Interview Follow Up</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="messageScreen2" style="display:block;">
+            <!-- <div id="messageScreen2" style="display:block;"> -->
+            <!-- Hidden when Scenario List is shown is clicked-->
+            <div id="backgroundFilter"></div>
+            <section class="messageTitle">
+                <p>Mutual Connection Intro</p>
+            </section>
+            <section id="newMessage">
+                <form>
+                    <input placeholder="Message Title">
+                    <textarea placeholder="Hi [Name],&#10;&#10;I am a PhD student studying Underwater Basket Weaving looking to pursue a career in Spongebobology. I saw you are connected to Dr. Sandy Cheeks, I was wondering if you could do an introduction. Here is a sample of my research. Go Sponges!&#10;&#10;Best,&#10;&#10;[Name]"></textarea>
+                    <textarea placeholder="Important Points&#10;- Major&#10;- Person of contact&#10;- Reason" id="importantPoints"></textarea>
+                </form>
+            </section>
+
+            <section id="textFormat">
+                <img src="#" alt="Emoji">
+                <img src="#" alt="Link">
+            </section>
+            <button id="saveMessage">
+                <a href="#">Save</a> 
+                <!-- <a href="#">Back</a>  <- this line of code displays if toggled to MessageScreen2 --> 
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
