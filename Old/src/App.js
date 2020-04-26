@@ -8,7 +8,7 @@ const App = () => {
   const columns = React.useMemo(
     () => [
       {
-        Header: 'First Name',
+        Header: 'Name',
         accessor: 'firstName',
       },
       {

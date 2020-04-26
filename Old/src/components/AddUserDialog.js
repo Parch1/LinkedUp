@@ -16,10 +16,10 @@ import Tooltip from '@material-ui/core/Tooltip'
 const initialUser = {
   firstName: '',
   lastName: '',
-  age: 0,
-  visits: 0,
-  status: 'single',
-  progress: 0,
+  company: '',
+  school: '',
+  notes: '',
+  lastContact: '',
   subRows: undefined,
 }
 
@@ -93,35 +93,35 @@ const AddUserDialog = props => {
           />
           <TextField
             margin="dense"
-            label="Age"
-            type="number"
-            fullWidth
-            value={user.age}
-            onChange={handleChange('age')}
-          />
-          <TextField
-            margin="dense"
-            label="Visits"
-            type="number"
-            fullWidth
-            value={user.visits}
-            onChange={handleChange('visits')}
-          />
-          <TextField
-            margin="dense"
-            label="Status"
+            label="Company"
             type="text"
             fullWidth
-            value={user.status}
-            onChange={handleChange('status')}
+            value={user.company}
+            onChange={handleChange('company')}
           />
           <TextField
             margin="dense"
-            label="Profile Progress"
-            type="number"
+            label="School"
+            type="text"
             fullWidth
-            value={user.progress}
-            onChange={handleChange('progress')}
+            value={user.school}
+            onChange={handleChange('school')}
+          />
+          <TextField
+            margin="dense"
+            label="Notes"
+            type="text"
+            fullWidth
+            value={user.notes}
+            onChange={handleChange('notes')}
+          />
+          <TextField
+            margin="dense"
+            label="Last Contact"
+            type="text"
+            fullWidth
+            value={user.lastContact}
+            onChange={handleChange('lastContact')}
           />
         </DialogContent>
         <DialogActions>

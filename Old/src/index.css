@@ -27,19 +27,30 @@ code {
     color: #fff;
 }
 
+/* Table */
+th, .MuiTableCell-root.MuiTableCell-head{
+    background:#E1E9EE;
+}
+
+
+.MuiTableCell-root.MuiTableCell-body {
+    height: 0px;
+    padding: 12px;
+}
+
+.MuiTableCell-root.MuiTableCell-body:nth-of-type(2) input{ /* Name row */
+    color: #1178B3;
+}
+
 
 /* checkboxes */
 
-.MuiSvgIcon-root:first-child {
+.makeStyles-root-2 .MuiSvgIcon-root:first-child {
     color: #fff;
 }
 
 .MuiSvgIcon-root {
     color: #283E4A;
-}
-
-.MuiTableCell-root.MuiTableCell-body {
-    height: 0px;
 }
 
 
@@ -48,9 +59,11 @@ code {
 .MuiInputBase-input.makeStyles-inputInput-89 {
     border: 2px solid #fff;
     border-radius: 50px;
+    background: none;
+    fill: none;
 }
 
-.MuiInputBase-root.makeStyles-inputRoot-88, .makeStyles-search-86 {
+.MuiInputBase-root.makeStyles-inputRoot-88, div.makeStyles-search-86 {
     border-radius: 50px;
     background: none;
     fill: none;
@@ -59,4 +72,6 @@ code {
 
 /*Typography*/
 
-th {}
+.makeStyles-root-167 {
+    color: #283E4A;
+}

@@ -272,3 +272,51 @@ EnhancedTable.propTypes = {
 }
 
 export default EnhancedTable
+  )
+}
+
+EnhancedTable.propTypes = {
+  columns: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
+  updateMyData: PropTypes.func.isRequired,
+  setData: PropTypes.func.isRequired,
+  skipPageReset: PropTypes.bool.isRequired,
+}
+
+export default EnhancedTable
+  )
+}
+
+EnhancedTable.propTypes = {
+  columns: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
+  updateMyData: PropTypes.func.isRequired,
+  setData: PropTypes.func.isRequired,
+  skipPageReset: PropTypes.bool.isRequired,
+}
+
+export default EnhancedTable
+  )
+}
+
+EnhancedTable.propTypes = {
+  columns: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
+  updateMyData: PropTypes.func.isRequired,
+  setData: PropTypes.func.isRequired,
+  skipPageReset: PropTypes.bool.isRequired,
+}
+
+export default EnhancedTable
+  )
+}
+
+EnhancedTable.propTypes = {
+  columns: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
+  updateMyData: PropTypes.func.isRequired,
+  setData: PropTypes.func.isRequired,
+  skipPageReset: PropTypes.bool.isRequired,
+}
+
+export default EnhancedTable
