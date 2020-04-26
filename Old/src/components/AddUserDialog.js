@@ -71,9 +71,9 @@ const AddUserDialog = props => {
         onClose={handleClose}
         aria-labelledby="form-dialog-title"
       >
-        <DialogTitle id="form-dialog-title">Add User</DialogTitle>
+        <DialogTitle id="form-dialog-title">Add Connection</DialogTitle>
         <DialogContent>
-          <DialogContentText>Demo add item to react table.</DialogContentText>
+          <DialogContentText>Add a new connection!</DialogContentText>
           <TextField
             autoFocus
             margin="dense"

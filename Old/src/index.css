@@ -20,9 +20,13 @@ code {
     position: fixed;
 }
 
+.makeStyles-highlight-3.MuiToolbar-gutters{
+    background: #283E4A;
+    color: rgb(108, 162, 194);
+}
+
 .makeStyles-root-2 {
     /* Just the Top Bar */
-    background: pink;
     background: #283E4A;
     color: #fff;
 }
@@ -30,12 +34,15 @@ code {
 /* Table */
 th, .MuiTableCell-root.MuiTableCell-head{
     background:#E1E9EE;
+    padding-left: 20px;
 }
 
 
 .MuiTableCell-root.MuiTableCell-body {
     height: 0px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
 }
 
 .MuiTableCell-root.MuiTableCell-body:nth-of-type(2) input{ /* Name row */
@@ -49,10 +56,17 @@ th, .MuiTableCell-root.MuiTableCell-head{
     color: #fff;
 }
 
+.makeStyles-root-2 .MuiSvgIcon-root:nth-of-type(2) {
+    background: red;
+}
+
 .MuiSvgIcon-root {
     color: #283E4A;
 }
 
+input.PrivateSwitchBase-input-139{
+    color: grey;
+}
 
 /*Searchbar*/
 
@@ -68,6 +82,7 @@ th, .MuiTableCell-root.MuiTableCell-head{
     background: none;
     fill: none;
 }
+
 
 
 /*Typography*/
