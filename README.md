@@ -3,8 +3,6 @@ LinkedUp is a chrome extension built with React to power up your LinkedIn!
 
 Project Page and Screenshots: https://devpost.com/software/linkedup-ikabwv
 
-Available on the Chrome Store: https://chrome.google.com/webstore/detail/linkedup/kifkfalljkcdikeobdhhbcfahaghpeci
-
 ## Project Summary
 Ever wondered how you can become a better networker? Well we can _Link you Up_ with our versatile extension! We created LinkedUp, a chrome extension to help early **career job seekers** leverage their connections to help maintain their network for career growth and job searching.    
 
